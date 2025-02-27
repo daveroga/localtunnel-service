@@ -1,0 +1,23 @@
+{
+  "name": "localtunnel-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "tsc & node dist/index.js",
+    "pm2": "tsc && pm2 start pm2.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "localtunnel": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/localtunnel": "^2.0.4",
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2"
+  }
+}
+

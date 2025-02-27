@@ -1,0 +1,4 @@
+[
+  { "subdomain": "subdomain1.example", "port": 8088 },
+  { "subdomain": "subdomain2.example", "port": 3001 }
+]
