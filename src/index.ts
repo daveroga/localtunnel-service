@@ -12,6 +12,7 @@ import localtunnelConfig from "./localtunnel-config.json"
     tunnel.on('close', () => {
       // tunnels are closed
       console.log(`Tunnel closed for ${tunnel.url} port ${localtunnelConfig[i].port}`);
+      process.exit(1);
     });
   }
 })();
